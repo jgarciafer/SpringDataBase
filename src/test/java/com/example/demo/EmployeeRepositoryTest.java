@@ -29,7 +29,7 @@ public class EmployeeRepositoryTest {
     }
 
     @Test
-    public void testone() {
+    public void shouldRetrieveOneEmployee() {
         this.jdbcTemplate = new JdbcTemplate(dataSource);
         EmployeeRepository employeeRepository = new EmployeeRepository(jdbcTemplate);
 
