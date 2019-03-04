@@ -3,17 +3,14 @@ package com.example.demo;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.sql.DataSource;
 
 import static org.hamcrest.CoreMatchers.is;
 
-//@RunWith(SpringRunner.class)
 public class EmployeeRepositoryTest {
 
     private JdbcTemplate jdbcTemplate;
