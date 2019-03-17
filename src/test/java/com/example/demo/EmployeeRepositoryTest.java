@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.entity.Employee;
+import com.example.demo.repository.EmployeeRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.repository;
 
+import com.example.demo.entity.Employee;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;

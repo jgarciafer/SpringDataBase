@@ -1,5 +1,9 @@
 package com.example.demo;
 
+import com.example.demo.configuration.DatabaseConfiguration;
+import com.example.demo.entity.Employee;
+import com.example.demo.repository.EmployeeRepository;
+import com.example.demo.service.EmployeeService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.hamcrest.CoreMatchers.is;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = {DemoApplication.class, DatabaseConfiguration.class})
 public class EmployeeServiceIntegrationTest {
 
     @Autowired
